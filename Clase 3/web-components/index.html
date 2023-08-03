@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+      h1{
+        color: red;
+      }
+      div{
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <header-component></header-component>
+    <value-component></value-component>
+    <div>
+      <button-component type="add">añadir</button-component>
+      <button-component type="substract">restar</button-component>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
