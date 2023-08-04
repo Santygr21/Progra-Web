@@ -42,6 +42,16 @@ class ButtonComponent extends HTMLElement{
     this.btn.classList.add(this.type)
 
   }
+
+  connectedCallback(){
+    console.log(`se renderizó ${this.type}`);
+  }
+
+  disconnectedCallback(){
+    
+  }
+
 }
 // Registramos el componente que vamos a utilizar
 customElements.define("button-component", ButtonComponent)
+
