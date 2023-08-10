@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      *{
+        flex-direction: column;
+      }
+      .buttons{
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+      <header-component>Counter App</header-component>
+
+      <counter-component value="0" id="counter-component"></counter-component>
+
+    <div class="buttons">
+      <button-component type="Substract" target="counter-component"></button-component>
+      <button-component type="Add" target="counter-component"></button-component>
+    </div>
+    
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
