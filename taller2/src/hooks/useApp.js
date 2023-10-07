@@ -7,7 +7,7 @@ export const useApp = () =>{
     const context = useContext(Context)
 
   if (!context) {
-    throw new Error('This component sould be within a Contextrovider Component')
+    throw new Error('This component sould be within a ContextProvider Component')
   }
   const {
     error,
