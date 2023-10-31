@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
+
+.titleLogin {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    margin: 2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: solid 2px #fff;
+    background-color: #000;
+}
+
+button {
+    width: 45%;
+    margin: 2rem;
+    padding: 0.8rem;
+    border-radius: 50px;
+    background-color: #00B0B5;
+    color: white;
+    font-weight: 600;
+}

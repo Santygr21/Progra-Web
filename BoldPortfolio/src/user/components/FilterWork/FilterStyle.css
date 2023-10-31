@@ -1,0 +1,14 @@
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+input{
+    width: 40%;
+}
+
+select{
+    width: 10%;
+    margin-left: 1rem;
+}

@@ -1,0 +1,9 @@
+.value{
+    display: flex;
+    flex-direction: column;
+}
+
+.ValuesContainer{
+    display: flex;
+    flex-direction: row;
+}

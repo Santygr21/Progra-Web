@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesContainer {
+    display: flex;
+}
+
+h3 {
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+    color: #ED447B;
+    margin-top: 1rem;
+}
