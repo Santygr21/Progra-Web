@@ -1,0 +1,34 @@
+.CardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movieCard {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movieCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .imageCard {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }

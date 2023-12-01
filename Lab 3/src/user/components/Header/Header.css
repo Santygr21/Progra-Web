@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; 
+    color: #fff;
+}
+
+  
+  img {
+    cursor: pointer;
+  }
+  
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .dropDown {
+      cursor: pointer;
+      margin: 0;
+      padding: 10px;
+      color: #fff; 
+      transition: background-color 0.3s ease-in-out;
+    }
+  
+    .dropDown:hover {
+      background-color: #555;
+    }
+  }
+  
